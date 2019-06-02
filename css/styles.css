@@ -8,9 +8,11 @@ font-family: monospace;
 h1  {
   font-size: 25px;
 }
+/*this id is strictly used to change the color of the number of nav templates.*/
 #number_color {
   color: #2fafaf;
 }
+/*.container puts the wepage in a container to enhance the look of the content.*/
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -33,6 +35,7 @@ h1  {
 .horizontal_nav {
   text-align: center;
 }
+/* .horizontal_nav nav is used to make a fixed horizontal navbar */
 .horizontal_nav nav {
   background-color: #272525;
   border-bottom-left-radius: 15px;
@@ -63,6 +66,7 @@ h1  {
   width: 25%;
   height: 75px;
 }
+/*.horizontal_nav a.active shows the user which webpage he is on.*/
 .horizontal_nav a.active {
   background-color: #272525;
   border-bottom-style: none;
@@ -76,7 +80,7 @@ h1  {
   border-bottom-style: none;
   color: #2fafaf;
 }
-
+/*This query is used to stop content from stretching out too far on larger computer screens*/
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1100px;
@@ -84,13 +88,14 @@ h1  {
     padding-right: auto;
   }
 }
+/*this query adjusts the nav bar on smaller screens to stop overflow*/
 @media screen and (max-width: 760px) {
   .horizontal_nav a {
     padding: 3px;
     width: auto;
   }
 }
-
+/*this query is to make the website more mobile friendly and also applies a verticle static navbar.*/
 @media screen and (max-width: 540px) {
   body {
     background-image: none;
