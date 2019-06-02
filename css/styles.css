@@ -141,13 +141,14 @@ h1  {
   .container {
     padding-left: 3px;
     padding-right: 3px;
-    padding-top: 520px;
+    padding-top: 480px;
   }
   .horizontal_nav a {
     border-radius: 15px;
-    font-size: 85px;
+    font-size: 79px;
     height: auto;
-    text-shadow: 2px 2px black;
+    text-shadow: 4px 4px black;
+    font-weight: bold;
     width: 100%;
   }
   .horizontal_nav nav {
