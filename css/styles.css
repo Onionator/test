@@ -166,7 +166,7 @@ h1  {
 }
 @media screen and (max-width: 980px) and (min-width: 960px) {
   .contentbox {
-    color: red;
+    color: blue;
   }
 }
 @media screen and (max-width: 960px) and (min-width: 940px) {
