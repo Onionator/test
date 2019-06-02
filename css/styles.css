@@ -121,9 +121,9 @@ h1  {
   }
 }
 /*these media queries change the contentbox text color in the mobile version*/
-@media screen amd (max-width: 1200px) and (min-width:1000) {
+@media screen and (max-width: 1200px) and (min-width:1000px) {
   .contentbox {
-    color: #2fafaf;
+    color: darksalmon;
   }
 }
 @media screen and (max-width: 1000px) and (min-width:800px) {
