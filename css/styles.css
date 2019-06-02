@@ -127,6 +127,9 @@ h1  {
 }*/
 /*this media query changes the the page to optimize for oneplus 6t*/
 @media screen and (max-width: 980px) and (min-width: 960px) {
+  body {
+  background-size: 400px 400px;
+  }
   h1 {
     font-size: 80px;
   }
