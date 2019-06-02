@@ -121,18 +121,23 @@ h1  {
   }
 }
 /*these media queries change the contentbox text color in the mobile version*/
-@media screen and (max-width: 1200px) and (min-width:1000px) {
+@media screen and (max-width: 1200px) and (min-width:1100px) {
+  .contentbox {
+    color: #2fafaf;
+  }
+}
+@media screen and (max-width: 1100px) and (min-width:1000px) {
   .contentbox {
     color: darksalmon;
   }
 }
-@media screen and (max-width: 1000px) and (min-width:800px) {
-  .contentbox {
-    color: darksalmon;
-  }
-}
-@media screen and (max-width: 800px) and (min-width:540px) {
+@media screen and (max-width: 1000px) and (min-width:900px) {
   .contentbox {
     color: lightgrey;
+  }
+}
+@media screen and (max-width: 900px) and (min-width:800px) {
+  .contentbox {
+    color: red;
   }
 }
