@@ -96,7 +96,7 @@ h1  {
   }
 }
 /*this query is to make the website more mobile friendly and also applies a verticle static navbar.*/
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 600px) {
   body {
     background-image: none;
   }
@@ -120,24 +120,32 @@ h1  {
     top: 0px;
   }
 }
-/*these media queries change the contentbox text color in the mobile version*/
-@media screen and (max-width: 1200px) and (min-width:1100px) {
+/*this media query changes the the page to optimize for oneplus 6t*/
+@media screen and (max-width: 1081px) and (min-width:1079px) {
+  h1 {
+    font-size: 80px;
+  }
   .contentbox {
     color: #2fafaf;
+    font-size: 50px
   }
-}
-@media screen and (max-width: 1100px) and (min-width:1000px) {
-  .contentbox {
-    color: darksalmon;
+  .container {
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 400px;
   }
-}
-@media screen and (max-width: 1000px) and (min-width:900px) {
-  .contentbox {
-    color: lightgrey;
+  .horizontal_nav a {
+    font-size: 80px;
+    height: auto;
+    width: 100%;
   }
-}
-@media screen and (max-width: 900px) and (min-width:800px) {
-  .contentbox {
-    color: red;
+  .horizontal_nav nav {
+    background-color: #272525;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: block;
+    padding-bottom: 1px;
+    position: absolute;
+    top: 0px;
   }
 }
