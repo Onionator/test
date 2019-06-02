@@ -126,6 +126,7 @@ h1  {
   }
 }*/
 /*this media query changes the the page to optimize for oneplus 6t*/
+/*
 @media screen and (max-width: 2500px) {
   h1 {
     font-size: 80px;
@@ -152,5 +153,11 @@ h1  {
     padding-bottom: 1px;
     position: absolute;
     top: 0px;
+  }
+}
+*/
+@media screen and (max-width: 1200px) and (min-width: 1000px){
+  .contentbox {
+    color: #2fafaf;
   }
 }
