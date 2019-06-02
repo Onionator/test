@@ -63,8 +63,8 @@ h1  {
   border-style: outset;
   display: block;
   float: left;
-  width: 25%;
   height: 75px;
+  width: 25%;
 }
 /*.horizontal_nav a.active shows the user which webpage he is on.*/
 .horizontal_nav a.active {
@@ -126,23 +126,25 @@ h1  {
   }
 }*/
 /*this media query changes the the page to optimize for oneplus 6t*/
-@media screen {
+@media screen and (max-width: 1085px) and (min-width: 1075px){
   h1 {
     font-size: 80px;
   }
   .contentbox {
     color: #2fafaf;
     font-size: 50px;
+    text-shadow: 2px 2px black;
   }
   .container {
     padding-left: 3px;
     padding-right: 3px;
-    padding-top: 420px;
+    padding-top: 480px;
   }
   .horizontal_nav a {
     border-radius: 15px;
     font-size: 85px;
     height: auto;
+    text-shadow: 2px 2px black;
     width: 100%;
   }
   .horizontal_nav nav {
