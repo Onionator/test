@@ -156,32 +156,30 @@ h1  {
   }
 }
 */
-@media screen and (min-width: 1200px) {
-  .contentbox {
-    color: green;
-  }
+/*this code is for figuring out screen sizes*/
+
 }
-@media screen and (max-width: 1200px) and (min-width: 1000px) {
+@media screen and (max-width: 1000px) and (min-width: 980px) {
   .contentbox {
     color: #2fafaf;
   }
 }
-@media screen and (max-width: 1000px) and (min-width: 900px) {
+@media screen and (max-width: 980px) and (min-width: 960px) {
   .contentbox {
     color: red;
   }
 }
-@media screen and (max-width: 900px) and (min-width: 800px) {
+@media screen and (max-width: 960px) and (min-width: 940px) {
   .contentbox {
     color: #ff00ff;
   }
 }
-@media screen and (max-width: 800px) and (min-width: 500px) {
+@media screen and (max-width: 940px) and (min-width: 920px) {
   .contentbox {
     color: #darksalmon;
   }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 920px)and (min-width: 900px) {
   .contentbox {
     color: lightgrey;
   }
