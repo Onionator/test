@@ -118,4 +118,21 @@ h1  {
     padding-bottom: 1px;
     position: absolute;
     top: 0px;
+  }
+}
+/*these media queries change the contentbox text color in the mobile version*/
+@media screen amd (max-width: 1200px) and (min-width:1000) {
+  .contentbox {
+    color: #2fafaf;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width:800px) {
+  .contentbox {
+    color: darksalmon;
+  }
+}
+@media screen and (max-width: 800px) and (min-width:540px) {
+  .contentbox {
+    color: lightgrey;
+  }
 }
